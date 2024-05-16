@@ -18,7 +18,7 @@ const ProductCarousel = ({ title, products }) => {
           ))}
         </Carousel>
       ) : (
-        <div>No products available</div>
+        <div>Loading...</div>
       )}
     </div>
   );
